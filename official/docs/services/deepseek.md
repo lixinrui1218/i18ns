@@ -11,5 +11,5 @@
 
 1. 打开 [DeepSeek](https://deepseek.com/) ，登录你的账号，登录成功后点击”管理控制台“。
 2. 注册成功后，打开 [DeepSeek 控制台](https://platform.deepseek.com/api_keys)获取 API Key
-3. 将 API Key 填入到本扩展中
+3. sk-1c9ee22cf412450b8181b0bd341fc948
 4. 完成 🎉，如有疑惑的地方，请在 [这里](https://github.com/immersive-translate/immersive-translate/issues/137) 反馈。
