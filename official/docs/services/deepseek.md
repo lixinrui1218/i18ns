@@ -13,3 +13,14 @@
 2. 注册成功后，打开 [DeepSeek 控制台](https://platform.deepseek.com/api_keys)获取 API Key
 3. 将 API Key 填入到本扩展中
 4. 完成 🎉，如有疑惑的地方，请在 [这里](https://github.com/immersive-translate/immersive-translate/issues/137) 反馈。
+curl https://api.deepseek.com/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <DeepSeek API Key>" \
+  -d '{
+        "model": "deepseek-chat",
+        "messages": [
+          {"role": "system", "content": "You are a helpful assistant."},
+          {"role": "user", "content": "Hello!"}
+        ],
+        "stream": false
+      }'
